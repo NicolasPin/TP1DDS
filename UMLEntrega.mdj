@@ -185,7 +185,7 @@
 											"top": 236,
 											"width": 271,
 											"height": 13,
-											"text": "-aprobada()",
+											"text": "+aprobada()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -202,7 +202,7 @@
 											"top": 251,
 											"width": 271,
 											"height": 13,
-											"text": "-verificarCorrelatividades()",
+											"text": "+verificarCorrelatividades()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -645,7 +645,7 @@
 											"top": 476,
 											"width": 207.30517578125,
 											"height": 13,
-											"text": "-materiasAprobadas: List<Materia>",
+											"text": "+materiasAprobadas: List<Materia>",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1655,8 +1655,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGOoKJDHD4evf4="
 							},
-							"name": "aprobada",
-							"visibility": "private"
+							"name": "aprobada"
 						},
 						{
 							"_type": "UMLOperation",
@@ -1664,8 +1663,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGOoKJDHD4evf4="
 							},
-							"name": "verificarCorrelatividades",
-							"visibility": "private"
+							"name": "verificarCorrelatividades"
 						}
 					]
 				},
@@ -1801,7 +1799,6 @@
 								"$ref": "AAAAAAGOoKhP9D+lwO0="
 							},
 							"name": "materiasAprobadas",
-							"visibility": "private",
 							"type": "List<Materia>"
 						}
 					]
