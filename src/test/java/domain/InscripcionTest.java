@@ -12,14 +12,14 @@ public class InscripcionTest {
     private final Materia dds;
 
     public InscripcionTest() {
-        pdp = new Materia(134534, new ArrayList<>(), "Paradigmas De la Programacion");
-        sintaxis = new Materia(223423, new ArrayList<>(), "Sintaxis Y Semantica de la Programacion ");
-        ads = new Materia(376545, new ArrayList<>(), "Analisis de Sistemas");
-        dds = new Materia(476867, Arrays.asList(pdp, sintaxis, ads), "Diseño de Sistemas");
+        pdp = new Materia(1111, new ArrayList<>(), "pdp");
+        sintaxis = new Materia(22222, new ArrayList<>(), "sintaxis ");
+        ads = new Materia(3333, new ArrayList<>(), "Aads");
+        dds = new Materia(4444, Arrays.asList(pdp, sintaxis, ads), "Diseño");
     }
 
     private Alumno crearAlumnoConMateriasAprobadas(Materia... materias) {
-        return new Alumno("123", "Juan", Arrays.asList(materias));
+        return new Alumno("44051382", "Nico", Arrays.asList(materias));
     }
 
     @Test
